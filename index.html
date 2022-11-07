@@ -36,7 +36,7 @@ body {
 }
 
 a {
-  color: #FBFB00;
+  color: #FFB727;
   text-decoration: none;
 }
 
@@ -52,6 +52,25 @@ h4,
 h5,
 h6 {
   font-family: 'Gemunu Libre', sans-serif;
+}
+
+h5 {
+ color: black;
+  font-family: 'Kanit', sans-serif;
+  font-size: 16px;
+}
+
+
+.mypp {
+  font-size: 20px
+}
+
+.skill {
+  font-size: 15px;
+}
+
+.pc {
+ color: black;
 }
 
 .contact {
@@ -511,10 +530,11 @@ section {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+    font-size: 18px;
 }
 
 .about .content ul strong {
-  margin-right: 10px;
+  margin-right: 18px;
 }
 
 .about .content ul i {
@@ -809,7 +829,7 @@ section {
   background: #ffb727;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: #000000;
   transition: 0.4s;
   border-radius: 5px;
 }
@@ -1042,7 +1062,9 @@ p1 {
         <div class="container aos-init aos-animate" data-aos="fade-up"><br>
           <div class="section-title"> <span>Portfolio</span>
             <h2>Portfolio</h2>
-            <p>Education</p>
+            <div class="mypp">
+              <p>Education</p>
+            </div>
           </div>
           <div class="container">
             <div class="row justify-content-center">
@@ -1052,8 +1074,10 @@ p1 {
 
                   title="รูปตรามหาวิทยาลัยศิลปากร">
                 <div class="card-body">
-                  <p class="card-text">Present - 2019 Study at Silapakorn
-                    Univercity, Faculty of Arts.</p>
+                  <div class="pc">
+                    <p class="card-text">Present - 2019 Study at Silapakorn
+                      Univercity, Faculty of Arts.</p>
+                  </div>
                 </div>
               </div>
               <div class="card" style="width: 18rem;"> <img src="img/uds.gif" class="card-img-top"
@@ -1062,8 +1086,10 @@ p1 {
 
                   title="รูปตราโรงเรียนอุดมศึกษา รังสิต">
                 <div class="card-body">
-                  <p class="card-text">2013-2018 Studied at Udomsuksa Rangsit
-                    School.</p>
+                  <div class="pc">
+                    <p class="card-text">2013-2018 Studied at Udomsuksa Rangsit
+                      School.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1072,13 +1098,15 @@ p1 {
           <br>
           <div class="container">
             <div class="row text-center justify-content-center">
-              <p>Work Experience</p>
+              <div class="mypp">
+                <p>Work Experience</p>
+              </div>
               <div class="card aos-init aos-animate" data-aos="fade-up" style="width: 18rem;">
                 <img src="img/birthday.png" class="card-img-top" alt="รูปปกคลิปเพลง Birthday"
 
                   title="รูปปกคลิปเพลง Birthday จากช่องยูปทูป พื้นหลังปกสีดำ ด้านซ้ายสุดเป็นรูปกระดาษยับๆ ที่ถูกเขียนด้วยหมึกสีดำว่า I don't think there's any comparison between the present hardtimes and the coming goodtimes. Romans 8:18 dear my friend.">
                 <div class="card-body">
-                  <h5 class="card-title">Birthday by Red Musuem</h5>
+                  <h5 class="card-title">Birthday by Red Museum</h5>
                   <a href="https://minimore.com/b/3s0b2/1" title="ผลงานแปลเพลง Birthday ของศิลปิน Red Museum"
 
                     target="_blank" class="btn btn-warning">Click to visit
@@ -1104,7 +1132,9 @@ p1 {
         <div class="container text-center aos-init aos-animate" data-aos="fade-up"><br>
           <div class="section-title"> <span>Fav music lately</span>
             <h2>Fav music lately</h2>
-            <p>Reset (リセット) Song by Taichi Mukai </p>
+            <div class="mypp">
+              <p>Reset (リセット) Song by Taichi Mukai </p>
+            </div>
             <br>
             <iframe src="https://www.youtube.com/embed/oTH0s0iRA0g" title="เพลงญี่ปุ่น ชื่อ Reset ของศิลปิน Taichi Mukia"
 
@@ -1119,7 +1149,9 @@ p1 {
         <div class="containeraos-init aos-animate" data-aos="fade-up"><br>
           <div class="section-title"> <span>Contact Me</span>
             <h2>Contact Me</h2>
-            <p>If you need more information, feel free to contact me anytime</p>
+            <div class="mypp">
+              <p>If you need more information, feel free to contact me anytime</p>
+            </div>
           </div>
           <div class="container">
             <div class="row">
@@ -1143,7 +1175,7 @@ p1 {
                   <div class="col-md-6">
                     <div class="info-box mt-4"> <i class="bi bi-envelope-open-heart-fill"></i>
                       <h3>Email Me</h3>
-                      <p>subbumpen@silpakorn.edu.com</p>
+                      <p><a href="mailto:subbumpen@silpakorn.edu.com" target="_top">subbumpen@silpakorn.edu.com</a></p>
                     </div>
                   </div>
                   <div class="col-md-6">
@@ -1180,7 +1212,7 @@ name="message" rows="6" placeholder="Message" required=""></textarea> </div>
                     <div class="sent-message">Your message has been sent. Thank
                       you!</div>
                   </div>
-                  <div class="text-center"><button type="submit">Send Message</button></div>
+                  <div class="text-center"><button type="submit">Send Me</button></div>
                 </form>
               </div>
             </div>

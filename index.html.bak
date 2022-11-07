@@ -9,19 +9,24 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&amp;display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&amp;display=swap"
+
       rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&amp;display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&amp;display=swap"
+
       rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&amp;display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&amp;display=swap"
+
       rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Me</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+
+      rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+
       crossorigin="anonymous">
     <style type="text/css" title="style">@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
@@ -31,7 +36,7 @@ body {
 }
 
 a {
-  color: #FBFB00;
+  color: #FFB727;
   text-decoration: none;
 }
 
@@ -47,6 +52,25 @@ h4,
 h5,
 h6 {
   font-family: 'Gemunu Libre', sans-serif;
+}
+
+h5 {
+ color: black;
+  font-family: 'Kanit', sans-serif;
+  font-size: 16px;
+}
+
+
+.mypp {
+  font-size: 20px
+}
+
+.skill {
+  font-size: 15px;
+}
+
+.pc {
+ color: black;
 }
 
 .contact {
@@ -506,10 +530,11 @@ section {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+    font-size: 18px;
 }
 
 .about .content ul strong {
-  margin-right: 10px;
+  margin-right: 18px;
 }
 
 .about .content ul i {
@@ -804,7 +829,7 @@ section {
   background: #ffb727;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: #000000;
   transition: 0.4s;
   border-radius: 5px;
 }
@@ -1006,19 +1031,22 @@ p1 {
               <div class="skills-content ps-lg-4">
                 <div class="progress"> <span class="skill">HTML <i class="val">50%</i></span>
                   <div class="progress-bar-wrap">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="50"
+                    <div class="progress-bar" role="progressbar" aria-valuenow="50"
+
                       aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
                   </div>
                 </div>
                 <div class="progress"> <span class="skill">Korean <i class="val">70%</i></span>
                   <div class="progress-bar-wrap">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+
                       aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
                   </div>
                 </div>
                 <div class="progress"> <span class="skill">English <i class="val">80%</i></span>
                   <div class="progress-bar-wrap">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80"
+
                       aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
                   </div>
                 </div>
@@ -1034,24 +1062,34 @@ p1 {
         <div class="container aos-init aos-animate" data-aos="fade-up"><br>
           <div class="section-title"> <span>Portfolio</span>
             <h2>Portfolio</h2>
-            <p>Education</p>
+            <div class="mypp">
+              <p>Education</p>
+            </div>
           </div>
           <div class="container">
             <div class="row justify-content-center">
-              <div class="card" style="width: 18rem;"> <img src="img/su.png" class="card-img-top"
-                  alt="รูปตรามหาวิทยาลัยศิลปากร พื้นหลังสีเขียวเมดิเตอร์เรเนียนมีรูปพระพิฆเนศอยู่ตรงกลาง"
+              <div class="card" style="width: 18rem;"> <img src="img/su.png" class="card-img-top"
+
+                  alt="รูปตรามหาวิทยาลัยศิลปากร พื้นหลังสีเขียวเมดิเตอร์เรเนียนมีรูปพระพิฆเนศอยู่ตรงกลาง"
+
                   title="รูปตรามหาวิทยาลัยศิลปากร">
                 <div class="card-body">
-                  <p class="card-text">Present - 2019 Study at Silapakorn
-                    Univercity, Faculty of Arts.</p>
+                  <div class="pc">
+                    <p class="card-text">Present - 2019 Study at Silapakorn
+                      Univercity, Faculty of Arts.</p>
+                  </div>
                 </div>
               </div>
-              <div class="card" style="width: 18rem;"> <img src="img/uds.gif" class="card-img-top"
-                  alt="รูปตราโรงเรียนอุดมศึกษา รังสิต วงกลมสีชมพูขอบสีฟ้าตรงกลางมีรูปเทียนส่องแสง"
+              <div class="card" style="width: 18rem;"> <img src="img/uds.gif" class="card-img-top"
+
+                  alt="รูปตราโรงเรียนอุดมศึกษา รังสิต วงกลมสีชมพูขอบสีฟ้าตรงกลางมีรูปเทียนส่องแสง"
+
                   title="รูปตราโรงเรียนอุดมศึกษา รังสิต">
                 <div class="card-body">
-                  <p class="card-text">2013-2018 Studied at Udomsuksa Rangsit
-                    School.</p>
+                  <div class="pc">
+                    <p class="card-text">2013-2018 Studied at Udomsuksa Rangsit
+                      School.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1060,22 +1098,28 @@ p1 {
           <br>
           <div class="container">
             <div class="row text-center justify-content-center">
-              <p>Work Experience</p>
+              <div class="mypp">
+                <p>Work Experience</p>
+              </div>
               <div class="card aos-init aos-animate" data-aos="fade-up" style="width: 18rem;">
-                <img src="img/birthday.png" class="card-img-top" alt="รูปปกคลิปเพลง Birthday"
+                <img src="img/birthday.png" class="card-img-top" alt="รูปปกคลิปเพลง Birthday"
+
                   title="รูปปกคลิปเพลง Birthday จากช่องยูปทูป พื้นหลังปกสีดำ ด้านซ้ายสุดเป็นรูปกระดาษยับๆ ที่ถูกเขียนด้วยหมึกสีดำว่า I don't think there's any comparison between the present hardtimes and the coming goodtimes. Romans 8:18 dear my friend.">
                 <div class="card-body">
-                  <h5 class="card-title">Birthday by Red Musuem</h5>
-                  <a href="https://minimore.com/b/3s0b2/1" title="ผลงานแปลเพลง Birthday ของศิลปิน Red Museum"
+                  <h5 class="card-title">Birthday by Red Museum</h5>
+                  <a href="https://minimore.com/b/3s0b2/1" title="ผลงานแปลเพลง Birthday ของศิลปิน Red Museum"
+
                     target="_blank" class="btn btn-warning">Click to visit
                     translated work</a> </div>
               </div>
               <div class="card aos-init aos-animate" data-aos="fade-up" style="width: 18rem;">
-                <img src="img/cant.png" class="card-img-top" alt="รูปปกคลิปเพลง Can't"
+                <img src="img/cant.png" class="card-img-top" alt="รูปปกคลิปเพลง Can't"
+
                   title="รูปปกคลิป Can't จากช่องยูทูป พื้นหลังปกสีดำ ตรงกลางมีคำสีแดงขนาดใหญ่เขียนว่า Can't">
                 <div class="card-body">
                   <h5 class="card-title">Can't by G.soul</h5>
-                  <a href="https://minimore.com/b/3s0b2/2" title="ผลงานแปลเพลง Can't ของศิลปิน G.soul"
+                  <a href="https://minimore.com/b/3s0b2/2" title="ผลงานแปลเพลง Can't ของศิลปิน G.soul"
+
                     target="_blank" class="btn btn-warning">Click to visit
                     translated work</a></div>
               </div>
@@ -1088,10 +1132,14 @@ p1 {
         <div class="container text-center aos-init aos-animate" data-aos="fade-up"><br>
           <div class="section-title"> <span>Fav music lately</span>
             <h2>Fav music lately</h2>
-            <p>Reset (リセット) Song by Taichi Mukai </p>
+            <div class="mypp">
+              <p>Reset (リセット) Song by Taichi Mukai </p>
+            </div>
             <br>
-            <iframe src="https://www.youtube.com/embed/oTH0s0iRA0g" title="เพลงญี่ปุ่น ชื่อ Reset ของศิลปิน Taichi Mukia"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            <iframe src="https://www.youtube.com/embed/oTH0s0iRA0g" title="เพลงญี่ปุ่น ชื่อ Reset ของศิลปิน Taichi Mukia"
+
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+
               allowfullscreen="" height="315" frameborder="0" width="560"></iframe>
           </div>
         </div>
@@ -1101,7 +1149,9 @@ p1 {
         <div class="containeraos-init aos-animate" data-aos="fade-up"><br>
           <div class="section-title"> <span>Contact Me</span>
             <h2>Contact Me</h2>
-            <p>If you need more information, feel free to contact me anytime</p>
+            <div class="mypp">
+              <p>If you need more information, feel free to contact me anytime</p>
+            </div>
           </div>
           <div class="container">
             <div class="row">
@@ -1110,11 +1160,14 @@ p1 {
                   <div class="col-md-12">
                     <div class="info-box"><i class="bi bi-share-fill"></i>
                       <h3>Social Profiles</h3>
-                      <div class="social-links"> <a href="https://twitter.com/woowtre"
+                      <div class="social-links"> <a href="https://twitter.com/woowtre"
+
                           class="twitter" target="_blank"><i class="bi bi-twitter"></i></a>
-                        <a href="https://web.facebook.com/profile.php?id=100008245030435"
+                        <a href="https://web.facebook.com/profile.php?id=100008245030435"
+
                           class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
-                        <a href="https://www.instagram.com/rruuukkkrrraaatttiii/"
+                        <a href="https://www.instagram.com/rruuukkkrrraaatttiii/"
+
                           class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
                       </div>
                     </div>
@@ -1122,7 +1175,7 @@ p1 {
                   <div class="col-md-6">
                     <div class="info-box mt-4"> <i class="bi bi-envelope-open-heart-fill"></i>
                       <h3>Email Me</h3>
-                      <p>subbumpen@silpakorn.edu.com</p>
+                      <p><a href="mailto:subbumpen@silpakorn.edu.com" target="_top">subbumpen@silpakorn.edu.com</a></p>
                     </div>
                   </div>
                   <div class="col-md-6">
@@ -1136,17 +1189,22 @@ p1 {
               <div class="col-lg-6">
                 <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                   <div class="row">
-                    <div class="col-md-6 form-group"> <input name="name" class="form-control"
+                    <div class="col-md-6 form-group"> <input name="name" class="form-control"
+
                         id="name" placeholder="Your Name" required="" type="text">
                     </div>
-                    <div class="col-md-6 form-group mt-3 mt-md-0"> <input class="form-control"
-                        name="email" id="email" placeholder="Your Email" required=""
+                    <div class="col-md-6 form-group mt-3 mt-md-0"> <input class="form-control"
+
+                        name="email" id="email" placeholder="Your Email" required=""
+
                         type="email"> </div>
                   </div>
-                  <div class="form-group mt-3"> <input class="form-control" name="subject"
+                  <div class="form-group mt-3"> <input class="form-control" name="subject"
+
                       id="subject" placeholder="Subject" required="" type="text">
                   </div>
-                  <div class="form-group mt-3"> <textarea class="form-control"
+                  <div class="form-group mt-3"> <textarea class="form-control"
+
 name="message" rows="6" placeholder="Message" required=""></textarea> </div>
                   <div class="my-3">
                     <div class="loading">Loading</div>
@@ -1154,7 +1212,7 @@ name="message" rows="6" placeholder="Message" required=""></textarea> </div>
                     <div class="sent-message">Your message has been sent. Thank
                       you!</div>
                   </div>
-                  <div class="text-center"><button type="submit">Send Message</button></div>
+                  <div class="text-center"><button type="submit">Send Me</button></div>
                 </form>
               </div>
             </div>
@@ -1180,8 +1238,10 @@ name="message" rows="6" placeholder="Message" required=""></textarea> </div>
           </div>
         </div>
       </footer>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+
+integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+
 crossorigin="anonymous"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script>
